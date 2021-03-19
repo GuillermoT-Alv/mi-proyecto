@@ -1,0 +1,135 @@
+/* Se define parte del estilo del body  */
+body {
+	background: #eee;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 1px;
+	padding: 0;
+}
+
+/*Se define el bloque del menu */
+#menu {
+	width: 80%;
+	height: 50px;  
+    margin: 0 auto; 
+	background-color: #000;
+}
+/*Estilos del menu  */
+#menu ul {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	margin: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 50px;
+}
+#menu ul li {
+	display: inline;
+	margin:0;
+	padding: 0;
+}
+#menu ul li a {
+	padding: 18px 15px; 
+	color: white;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+#menu ul li a:hover {
+	background-color: #D0C1C1;
+	color: white;
+}
+
+/*Se define el bloque de cabecera junto con su estilo  */
+#cabecera  {
+	width: 70%;
+	height: 90px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	color: #041046;
+	background: #EDE6E6;
+	border-bottom: 3px solid #222222;
+	line-height: 90px;
+	font-weight:;
+	letter-spacing: 5px;
+	margin: 0px auto;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+
+/*Se define el bloque del contenedor principal  */
+#contenedor {
+	margin: 0 auto;
+	width: 65%;
+}
+
+/*  Se define el estilo del contenedor principal */
+#contenedor a:link {
+	text-decoration: none;
+	color: #003366;
+	border-bottom: 0px solid #003366;
+}
+#contenedor a:hover {
+	text-decoration: none;
+	color: #CC3300;
+	border-bottom: 0px solid #CC3300;
+}
+
+
+/*Se define el bloque izquierdo */
+#bloq_izq {
+	float: left;
+	width: 70%;
+	text-align: justify;
+	
+}
+/*Se define el estilo del bloque izquierdo */
+#bloq_izq h2 {
+	font-weight: normal;
+	font-size: 155%;
+	color: #222;
+	border-bottom: 1px dotted #ccc;
+	margin-bottom: 5px;
+	padding-bottom: 2px;
+}
+
+
+/*Se define el bloque derecho */
+#bloq_der {
+	float: right;
+	color: #999;
+	width: %20px;
+	
+}
+/*Se define el estilo del bloque derecho */
+#bloq_der h3 {
+	font-weight: normal;
+	font-size: 150%;
+	color: #777;
+	margin-bottom: -5px;
+}
+#bloq_der ul { 
+        padding: 3px 0px 3px 10px; 
+}
+
+
+
+/*Se define el bloque del pie */
+#pie {
+	margin: 0 auto;
+	color: #fff;
+	background: #333;
+	width: 80%;
+	height: 25px;
+	clear: both;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	left: 10%;
+	padding: 2px;
+}
+/*Se define el estilo del pie */
+#pie span {
+	color: #00ffa0;
+}
